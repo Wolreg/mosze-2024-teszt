@@ -28,7 +28,10 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     
+    std::cout << "Kollaboráció tesztelése: sikeres" << std::endl;
+
     delete[] b;
 
     return 0;
+
 }
